@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Resources - UXAI Cooperative</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#submit-resources">Submit Resources</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Submit Resources</h1>
+    </header>
+
+    <main>
+        <section id="submit-resources">
+            <h2>Share Your Resources</h2>
+            <p>Use the form below to submit your resources to the UXAI Cooperative. Accepted file types include PDFs, images, and text files.</p>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="resource-title">Resource Title:</label>
+                <input type="text" id="resource-title" name="resource-title" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file" accept=".pdf,.jpg,.png,.txt" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UXAI Cooperative. All rights reserved.</p>
+    </footer>
+</body>
+</html>
