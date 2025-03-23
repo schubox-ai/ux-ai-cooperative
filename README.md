@@ -3,7 +3,7 @@
 
 Empowering the UX community and its members to foster innovation, and contribute to the development of more human-centered and responsible AI-enhanced design solutions by prioritizing shared resources, open source governance, and a commitment to common practices.
 
-## UX Design and AI Cooperatives: A Synergistic Opportunity
+## UX Design / AI Cooperative: A Synergistic Opportunity
 
 Even in the absence of formal UX design AI cooperatives, artificial intelligence is increasingly playing a collaborative role within the UX design process in various organizational settings. This widespread adoption of AI tools in UX design provides a significant technological foundation for its potential integration into a cooperative model.
 
